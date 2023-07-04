@@ -23,6 +23,9 @@ WHERE Freight < 100
 SELECT * FROM Customers
 WHERE Country != 'France'
 
+SELECT * FROM Customers
+WHERE Country > 'USA'
+
 
 --Soviele Filter miteinander verknüpfen wie wir wollen mit AND oder OR
 

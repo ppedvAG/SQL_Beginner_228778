@@ -21,7 +21,6 @@ float: variable Nachkommastellen, bzw. wie geht
 binary: Binärcode
 
 
-
 Strings/Character:
 char(10): 'Nico      '
 nchar(X)
@@ -36,8 +35,13 @@ varchar(MAX)
 Datum:
 date: YYYY.MM.DD
 time: HH.MM.SS.MS
-datetime
-
+datetime: Kombination aus date & time; bis MS Bereich
+(datetime2: Bis NS Bereich)
+smalldatetime: präzision bis Sek.
 
 
 Andere:
+XML
+JSON
+geometry
+geography

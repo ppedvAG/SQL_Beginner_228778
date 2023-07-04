@@ -11,7 +11,6 @@ Agenda
 Tag1:
 - SSMS 
 - SELECT, ORDER BY, TOP, DISTINCT
-- Except/Intersect
 - WHERE Filter + LIKE
 - Joins 
 - Views/Sichten
@@ -21,13 +20,15 @@ Tag2:
 - SysFunctions, Datum, Strings
 - Aggregate + GROUP BY
 - HAVING
-- #tempTables
-- Unterabfragen/Subqueries
 - CASE
+- Except/Intersect
 
 Tag3:
+- #tempTables
+- Unterabfragen/Subqueries
 - INSERT/UPDATE/DELETE
 - CREATE Table
+- Variablen
 - Stored Procedures
 - While Loops
 - If statements
