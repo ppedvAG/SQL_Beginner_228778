@@ -77,7 +77,6 @@ SELECT Fax, ISNULL(Fax, 'n/a') FROM Customers
 --Ersetzt gefundene NULL Werte mit neuem Wert
 
 
-
 --Übungen:
 
 --1. Welches Produkt wurde in Q3 1997 am meisten verkauft? (Quantity)

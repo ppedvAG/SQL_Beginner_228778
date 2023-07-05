@@ -1,9 +1,148 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SqlWorkbenchSqlProject">
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL_Beginner_KW27_2023">
   <Items>
-    <LogicalFolder Name="Connections" Type="2" />
-    <LogicalFolder Name="Queries" Type="0" />
-    <LogicalFolder Name="Miscellaneous" Type="3" />
-
+    <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="NS2-WIN10-2\SQLSPIELPLATZ:DOM-PPA01\ns2">
+          <Created>2023-07-03T09:31:28.2089937+02:00</Created>
+          <Type>SQL</Type>
+          <Server>NS2-WIN10-2\SQLSPIELPLATZ</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB>Northwind</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00_Intro.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>00_Intro.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01_SELECT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01_SELECT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_WHERE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_WHERE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_Like.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03_Like.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_Joins.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_Joins.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_Views.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05_Views.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_Datentypen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06_Datentypen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07_ÜbungenTag1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07_ÜbungenTag1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08_Aggregate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08_Aggregate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09_SysFunctions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09_SysFunctions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10_CASE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10_CASE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_UnionExceptIntersect.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11_UnionExceptIntersect.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_ÜbungenTag2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12_ÜbungenTag2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_TempTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13_TempTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_Unterabfragen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14_Unterabfragen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_InsertUpdateDelete.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15_InsertUpdateDelete.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16_Variablen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16_Variablen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17_StoredProcedures.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17_StoredProcedures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18_WHILE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>18_WHILE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19_Tough.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NS2-WIN10-2\SQLSPIELPLATZ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NS2-WIN10-2\SQLSPIELPLATZ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19_Tough.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
